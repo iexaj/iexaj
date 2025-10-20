@@ -1,0 +1,148 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background:linear-gradient(#fed3e4 ,#f8a7b4)fixed ;
+  height: 100vh;
+  padding-top: 60px;
+ }
+h1{color: #922c45; font-family: "KARLA", sans-serif;
+font-weight: 800 }
+h2{color: #c65757 ; 
+  font-size: 35px;
+  font-family: "karla";
+  padding: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #ec6990; }
+p, ol {color: #a7223d;
+ font-family: "spectral";}
+.highlight {
+  background-color: #ff6193;
+  color: #fae1cf;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+h3{
+  font-family: "spectral";
+  color: white;
+  font-size: 20px;
+  margin: 0;}
+section{
+	background: #fff6e8;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px #a15260;
+	padding: 20px;
+	margin: 40px;}
+.topbar { 
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fda7c9;
+  padding: 8px 25px;
+  width: 100%;
+  top: 0; 
+  z-index: 1000;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1); 
+}
+.topbar-right{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-right: 70px;
+}
+.topbar-right img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  }
+.bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.top {
+  display: flex;
+  padding: 10px 18px;
+}
+.left img {
+    margin-top: 30px;
+  width :100%;
+  height: auto;
+}
+.left {
+  flex: 3;}
+.right {
+  flex: 1;
+  width: 40%;
+  flex-direction: column;
+}
+.mid-split{
+  display: flex;
+  background: #fff6e8;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #a15260;
+  padding: 20px;
+  margin: 40px;align-items: center;
+}
+.mid-left, .mid-right, .mid-mid {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: auto;
+  margin:25px;
+}
+.mid-mid img{ 
+border-radius: 50%;}
+.mid-split h2 {
+font-size: 18;
+background-color: #f4cac1;
+border-style: solid;
+}
+ul {
+  list-style-image: url("../acc/bullet.png");
+color: #a7223d;
+ font-family: "spectral";}
+
+#contact{
+  text-align: center;
+  display: flex;
+}
+#contact .icons {
+  justify-content: center;
+  gap: 15px;
+}
+img{border-radius: 20px;
+   transition: transform 0.3s ease;
+   box-shadow 0.3s ease;
+}
+img:hover{
+   transform: scale(1.05);
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+button{color: white;
+	align-items: center;
+	background-color: #ffb6c1;
+	border: white;
+	border-radius: 18px;
+	padding: 10px 18px;
+	margin: 10px;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+button:hover{ background-color: #ff99aa;
+}
+a:visited{ color: white;
+}
+ol a{
+  color: #a7223d;
+  text-decoration: none;}
+a:visited{ color: #bc6a81;
+}
+.mid-left,
+.mid-right{
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: auto;
